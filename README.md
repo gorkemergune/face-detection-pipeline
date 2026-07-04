@@ -154,7 +154,6 @@ Interrupt it anytime — a restart resumes exactly where it stopped, never proce
 ```text
 face-detection-pipeline/
 ├── dataset/            # Input images (you supply these; not committed)
-├── docs/               # Development docs: roadmap, task list, coding rules
 ├── img/                # README assets (examples, benchmark screenshot)
 ├── models/
 │   └── blaze_face_short_range.tflite   # BlazeFace model (Apache-2.0, by Google)
