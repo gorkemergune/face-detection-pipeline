@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Caches
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated data — never commit evaluation artifacts
+outputs/
+review/
+results.csv
+review.csv
+
+# Input images (users supply their own)
+dataset/*
+!dataset/.gitkeep
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+docs
